@@ -1,0 +1,216 @@
+.cart-button {
+    color: black;
+    border-color: black;
+    text-decoration: none;
+}
+.item-image {
+    height: 100%;
+    width: 100%;
+}
+.item-type-icon {
+    right: 3%;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+    background-color: #FCEF6F;
+}
+.bg-light-green-fallout {
+    background-color: #9BD997;
+}
+.bg-light-red-fallout {
+    background-color: #F9B3B3;
+}
+.image-bg{
+    background-color: #BDD1E9;
+    padding: 3px;
+    border-radius: 3%;
+}
+.item-container {
+    width: 85%;
+    align-self: center;
+    border-radius: 10px;
+}
+.stars {
+    position: absolute;
+    bottom: 3%;
+}
+.item-row-container {
+    width: 100%;
+    align-items: center;
+    margin-left: 2px;
+}
+.sell-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.bg-light-dark-red-fallout {
+    background-color: #e79191;
+}
+.container-comments{
+    display: flex;
+    margin-left: 8%;
+    flex-direction:column ; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+    border-radius: 20px;
+    width: 84% ;
+    padding-left: 0;
+    height: auto;
+    position: relative;
+    padding-bottom: 2%;
+}
+.container-body-comment{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    overflow-y: auto;
+    gap: 20px;
+    justify-content: center;
+    width: 80% ;
+    text-align: center;
+    height:250px;
+    padding: 20px;
+    margin: 0;
+    border-radius: 30px;
+    background-color: #DCDCDC;
+
+}
+
+.container-body-comment::-webkit-scrollbar {
+    width: 15px; /* Largeur de la barre de défilement */
+}
+
+.container-body-comment::-webkit-scrollbar-thumb {
+    background-color:#FFD700; /* Couleur de la barre */
+    border-radius: 10px; /* Arrondi de la barre */
+}
+
+.container-body-comment::-webkit-scrollbar-track {
+    background-color:grey; /* Couleur de l'arrière-plan */
+    border-radius: 10px;
+}
+.container-icon-comment{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 70%;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    gap:10px;
+    height: auto;
+    width: auto;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #FCEF6F;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5); /* Ombre */
+    
+}
+.container-icon-comment:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+textarea{
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 20px;
+}
+.img-icon{
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+}
+
+.noComment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 10%;
+    flex-basis: 70%;
+    gap:30px;
+    height: auto;
+    width: auto;
+    max-height: 135px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #FCEF6F;
+}
+.hide-add-message{
+    visibility:hidden;
+}
+.add-comment{
+    display: flex;
+    justify-content: center;
+    width: 50% ;
+    text-align: center;
+    height:auto;
+    border-radius: 30px;
+}
+.rating-container {
+    display: flex;
+    justify-content: center; /* Centrer les étoiles dans le conteneur */
+    align-items: center;
+    flex-wrap: wrap; /* Gérer plusieurs lignes si nécessaire */
+    max-width: 100%; /* Empêche le dépassement */
+    height: auto;
+    flex-shrink: 1;
+}
+
+#okBtnDetail{
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(126, 189, 188);
+    color: black;
+    font-weight: bold;
+  }
+#cancelBtnDetail{
+    border-radius: 15px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(194, 129, 129);
+  
+  }
+button{
+    margin: 10px;
+  }
+
+  .rating-summary {
+    background: #DCDCDC;
+    width: 70%;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.rating-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.rating-label {
+    width: 80px;
+    font-weight: bold;
+}
+
+.bar {
+    height: 12px;
+    background: #ffffff;
+    border-radius: 5px;
+    margin: 0 10px;
+    position: relative;
+    flex-grow: 1;
+}
+
+.bar div {
+    height: 100%;
+    background: #ffc107;
+    border-radius: 5px;
+}
