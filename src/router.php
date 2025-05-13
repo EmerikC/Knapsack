@@ -12,7 +12,7 @@ function route(string $route, array $params = null) : void
 
     if (array_key_exists($route, ROUTES)) {
 
-        $controllerFile = 'Controllers/' . ROUTES[$route];
+        $controllerFile = 'controllers/' . ROUTES[$route];
 
         if (file_exists($controllerFile)) {
 
